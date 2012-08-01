@@ -1,0 +1,11 @@
+{ "name": "flashify"
+, "description": "Flash notifications for Express 3 applications"
+, "main": "./index"
+, "author": "Brendan Scarvell"
+, "version": "1.0"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/tehlulz/flashify.git"
+  }
+, "bugs" : { "url" : "http://github.com/tehlulz/flashify/issues" }
+}
