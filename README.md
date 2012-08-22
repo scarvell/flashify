@@ -48,5 +48,5 @@ You can queue up multiple flash messages with custom types using the same method
       req.flash('error', 'Some other silly error');
       req.flash('this still queues up as well!')
       req.flash('error', 'Some other other silly error');
-      req.redirect('/');
+      res.redirect('/');
     });
