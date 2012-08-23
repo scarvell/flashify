@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/tehlulz/flashify.png)](http://travis-ci.org/tehlulz/flashify)
 Flashify
 ========
 
