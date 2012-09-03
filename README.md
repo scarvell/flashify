@@ -15,11 +15,12 @@ Then require it into your application:
 
     var flashify = require('flashify');
 
-Then tell Express to use the middleware in your configuration function:
+Then tell Express to use the middleware in your configuration function BEFORE app.router :
 
     app.use(express.cookieParser('secret'));
     app.use(express.session());
     app.use(flashify);
+    app.use(app.router);
 
 Usage
 =====
