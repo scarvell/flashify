@@ -30,7 +30,7 @@ set a flash notification by the following:
 
     app.get('/secret', function(req,res){
       req.flash('Sorry, go away');
-      req.redirect('/');
+      res.redirect('/');
     });
 
 Inside your view, you can loop through and get the flash by the following 
