@@ -1,7 +1,10 @@
+
 Flashify
 ========
 
 Flash notifications for Express 3 applications
+
+![Build Status](https://travis-ci.org/Rafe/flashify.png)
 
 Installation
 ============
