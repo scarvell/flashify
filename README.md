@@ -33,6 +33,22 @@ set a flash notification by the following:
       res.redirect('/');
     });
 
+To send a flash notification in the same route with out redirecting, you can do the by using `res.flash`
+
+    app.get('/secret', function(req,res){
+      if (req.session.isAdmin)
+      {
+        res.flash('info','You are an awesome admin because you use flashify');
+        res.render('secret/page');
+      }
+      else 
+      {
+        req.flash('Sorry, go away');
+        res.redirect('/');
+      }
+    });
+
+
 Inside your view, you can loop through and get the flash by the following 
 (Example in Jade):
 
