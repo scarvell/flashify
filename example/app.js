@@ -33,6 +33,7 @@ app.configure('development', function(){
 });
 
 app.get('/', function(req,res){
+  res.flash('error','Response flash');
   res.render('index', {title: 'Flashify'});
 });
 
